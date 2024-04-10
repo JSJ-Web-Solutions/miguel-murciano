@@ -5,7 +5,10 @@ import Img3 from "../assets/about_3.png";
 function About() {
   return (
     <div className="about" id="about">
-      <h1>about me</h1>
+      <div className="about_title_container">
+        <h1>about me</h1>
+        <hr />
+      </div>
       <div className="rows">
         <div className="row row-1">
           <p>

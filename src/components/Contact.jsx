@@ -1,6 +1,7 @@
 function Contact() {
   return (
     <section className="contact" id="contact">
+      <hr className="hr-top" />
       <div className="contact_container">
         <ul className="contact_list">
           <li>
@@ -21,10 +22,17 @@ function Contact() {
             </p>
           </li>
           <li>
-            <p>@MIGUEL_MURCIANO</p>
+            <a
+              href="https://www.instagram.com/miguel_murciano/"
+              target="_blank"
+            >
+              @MIGUEL_MURCIANO
+            </a>
           </li>
           <li>
-            <p>INFO@MIGUELMURCIANO.COM</p>
+            <a href="mailto:info@miguelmurciano.com" target="_blank">
+              INFO@MIGUELMURCIANO.COM
+            </a>
           </li>
         </ul>
       </div>

@@ -34,7 +34,15 @@ html {
 
 body {
   background: #f2f1eb;
-  padding: 0 10%;
+  padding: 0 15%;
+
+  @media only screen and (max-width: 1200px) {
+    padding: 0 10%;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    padding: 0 5%;
+  }
 }
 
 p,
@@ -46,4 +54,9 @@ a {
 h1 {
   font-family: $font-family_secondary;
   font-weight: 400;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  margin-bottom: $spacing-4;
 }
