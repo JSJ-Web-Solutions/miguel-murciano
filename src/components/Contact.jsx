@@ -1,8 +1,8 @@
 function Contact() {
   return (
     <section className="contact" id="contact">
-      <div>
-        <ul>
+      <div className="contact_container">
+        <ul className="contact_list">
           <li>
             <p>WORLDWIDE DIRECTOR</p>
           </li>
@@ -16,7 +16,7 @@ function Contact() {
           </li>
           <li>
             <p>
-              REPRESENTED IN ASIA / EASTER EUROPE / MIDDLE EAST / NORTH AFRICA
+              REPRESENTED IN ASIA / EASTERN EUROPE / MIDDLE EAST / NORTH AFRICA
               BY GO EAST
             </p>
           </li>
@@ -28,7 +28,10 @@ function Contact() {
           </li>
         </ul>
       </div>
-      <h1>contact</h1>
+      <div className="contact_title_container">
+        <h1>contact</h1>
+        <hr />
+      </div>
     </section>
   );
 }

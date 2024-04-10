@@ -11,18 +11,18 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  // font-family: $font-family_main;
+  font-family: $font-family_main;
   &::before {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    // font-family: $font-family_main;
+    font-family: $font-family_main;
   }
   &::after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    // font-family: $font-family_main;
+    font-family: $font-family_main;
   }
 }
 
@@ -30,4 +30,20 @@ html {
   /* 1rem = 10px */
   font-size: 62.5%;
   scroll-behavior: smooth;
+}
+
+body {
+  background: #f2f1eb;
+  padding: 0 10%;
+}
+
+p,
+a {
+  color: $color_text;
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-family: $font-family_secondary;
+  font-weight: 400;
 }

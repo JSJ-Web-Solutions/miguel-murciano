@@ -1,0 +1,50 @@
+.about {
+  .rows {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-5;
+  }
+
+  h1 {
+    color: $color_text;
+    font-size: 6.4rem;
+    margin-bottom: $spacing-4;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      width: 50%;
+      line-height: 3rem;
+      text-transform: uppercase;
+    }
+
+    &-1 {
+      p {
+        padding-right: $spacing-3;
+      }
+
+      &-images {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        gap: $spacing-3;
+
+        img {
+          width: 100%;
+        }
+        & img:nth-child(2) {
+          width: 70%;
+        }
+      }
+    }
+
+    &-2 {
+      p {
+        padding-left: $spacing-3;
+      }
+    }
+  }
+}
