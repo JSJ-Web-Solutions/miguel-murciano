@@ -1,10 +1,12 @@
+import Header from "./components/Header";
+import Intro from "./components/Intro";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Intro from "./components/Intro";
 
 function App() {
   return (
     <>
+      <Header />
       <Intro />
       <About />
       <Contact />

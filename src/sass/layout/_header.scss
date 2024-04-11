@@ -1,0 +1,12 @@
+.header {
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+
+  &__link {
+    font-size: 2rem;
+    text-decoration: none;
+  }
+}
