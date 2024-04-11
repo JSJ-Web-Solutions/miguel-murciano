@@ -1,0 +1,49 @@
+.contact {
+  .hr-top {
+    width: 100%;
+    height: 1px;
+    background-color: $color_text;
+    border: none;
+  }
+
+  &_title_container {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-2;
+    margin-bottom: 20rem;
+
+    h1 {
+      font-size: 20rem;
+      color: $color_contact;
+      display: inline-block;
+    }
+    hr {
+      width: 30rem;
+      height: 5px;
+      border: none;
+      background-color: $color_text;
+      margin-top: -$spacing-5;
+      width: 100%;
+    }
+  }
+
+  &_container {
+    display: flex;
+    justify-content: end;
+  }
+
+  &_list {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-2;
+    list-style: none;
+    max-width: 30rem;
+    line-height: 3rem;
+
+    li {
+      text-align: start;
+    }
+
+    margin-top: calc($spacing-5 * 4);
+  }
+}

@@ -1,8 +1,9 @@
 function Contact() {
   return (
     <section className="contact" id="contact">
-      <div>
-        <ul>
+      <hr className="hr-top" />
+      <div className="contact_container">
+        <ul className="contact_list">
           <li>
             <p>WORLDWIDE DIRECTOR</p>
           </li>
@@ -16,19 +17,29 @@ function Contact() {
           </li>
           <li>
             <p>
-              REPRESENTED IN ASIA / EASTER EUROPE / MIDDLE EAST / NORTH AFRICA
+              REPRESENTED IN ASIA / EASTERN EUROPE / MIDDLE EAST / NORTH AFRICA
               BY GO EAST
             </p>
           </li>
           <li>
-            <p>@MIGUEL_MURCIANO</p>
+            <a
+              href="https://www.instagram.com/miguel_murciano/"
+              target="_blank"
+            >
+              @MIGUEL_MURCIANO
+            </a>
           </li>
           <li>
-            <p>INFO@MIGUELMURCIANO.COM</p>
+            <a href="mailto:info@miguelmurciano.com" target="_blank">
+              INFO@MIGUELMURCIANO.COM
+            </a>
           </li>
         </ul>
       </div>
-      <h1>contact</h1>
+      <div className="contact_title_container">
+        <h1>contact</h1>
+        <hr />
+      </div>
     </section>
   );
 }
