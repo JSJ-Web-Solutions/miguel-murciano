@@ -10,7 +10,7 @@ function Intro() {
   }
 
   return (
-    <section className="intro__container">
+    <section className="intro">
       <div className="intro__vid-1-container">
         <video
           src="/videos/cocacola-vid.mp4"
