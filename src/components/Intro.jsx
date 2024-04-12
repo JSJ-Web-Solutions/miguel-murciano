@@ -1,26 +1,20 @@
+import React from "react";
+
+const LazyVideo = React.lazy(() => import("./LazyVideo"));
+
 function Intro() {
-  function mouseOverHandler(e) {
-    e.target.setAttribute("controls", "true");
-    e.target.play();
-  }
-
-  function mouseLeaveHandler(e) {
-    e.target.removeAttribute("controls");
-    e.target.pause();
-  }
-
   return (
     <section className="intro" id="intro">
       <div className="intro__vid-1-container">
-        <video
+        <LazyVideo
           src="/videos/cocacola-vid.mp4"
-          onMouseOver={mouseOverHandler}
-          onMouseLeave={mouseLeaveHandler}
+          placeholder={"/placeholder-imgs/cocacola.jpg"}
           muted
           loop
           disableRemotePlayback
           className="intro__vid-1"
-        ></video>
+        ></LazyVideo>
+
         <div className="intro__vid-text">
           <p className="intro__vid-text-title">coca cola</p>
           <p className="intro__vid-text-subtitle">REAL MAGIC DC</p>
@@ -28,15 +22,14 @@ function Intro() {
       </div>
       <div className="intro__vid-2-3">
         <div className="intro__vid-2-container">
-          <video
+          <LazyVideo
             src="/videos/c2-core-vid.mp4"
-            onMouseOver={mouseOverHandler}
-            onMouseLeave={mouseLeaveHandler}
+            placeholder={"/placeholder-imgs/c2-core.jpg"}
             muted
             loop
             disableRemotePlayback
             className="intro__vid-2"
-          ></video>
+          ></LazyVideo>
           <div className="intro__vid-text">
             <p className="intro__vid-text-title">c2</p>
             <p className="intro__vid-text-subtitle">CORE</p>
@@ -44,15 +37,14 @@ function Intro() {
         </div>
         <div>
           <div className="intro__vid-3-container">
-            <video
+            <LazyVideo
               src="/videos/fiat-vid.mp4"
-              onMouseOver={mouseOverHandler}
-              onMouseLeave={mouseLeaveHandler}
+              placeholder={"/placeholder-imgs/fiat.jpg"}
               muted
               loop
               disableRemotePlayback
               className="intro__vid-3"
-            ></video>
+            ></LazyVideo>
             <div className="intro__vid-text">
               <p className="intro__vid-text-title">fiat</p>
               <p className="intro__vid-text-subtitle">SII UNICO</p>
@@ -62,15 +54,14 @@ function Intro() {
       </div>
       <div className="intro__vid-4-5-lines">
         <div className="intro__vid-4-container">
-          <video
+          <LazyVideo
             src="/videos/ups-vid.mp4"
-            onMouseOver={mouseOverHandler}
-            onMouseLeave={mouseLeaveHandler}
+            placeholder={"/placeholder-imgs/ups.jpg"}
             muted
             loop
             disableRemotePlayback
             className="intro__vid-4"
-          ></video>
+          ></LazyVideo>
           <div className="intro__vid-text">
             <p className="intro__vid-text-title">ups</p>
             <p className="intro__vid-text-subtitle">BE UNSTOPPABLE</p>
@@ -79,15 +70,15 @@ function Intro() {
         <div className="intro__vid-line1"></div>
         <div className="intro__vid-line2"></div>
         <div className="intro__vid-5-container">
-          <video
+          <LazyVideo
             src="/videos/barcel-vid.mp4"
-            onMouseOver={mouseOverHandler}
-            onMouseLeave={mouseLeaveHandler}
+            placeholder={"/placeholder-imgs/barcel.jpg"}
             muted
             loop
             disableRemotePlayback
             className="intro__vid-5"
-          ></video>
+          ></LazyVideo>
+
           <div className="intro__vid-text">
             <p className="intro__vid-text-title">barcel</p>
             <p className="intro__vid-text-subtitle">
@@ -98,30 +89,30 @@ function Intro() {
       </div>
       <div className="intro__vid-6-7">
         <div className="intro__vid-6-container">
-          <video
+          <LazyVideo
             src="/videos/c2-freeze-vid.mp4"
-            onMouseOver={mouseOverHandler}
-            onMouseLeave={mouseLeaveHandler}
+            placeholder={"/placeholder-imgs/c2-freeze.jpg"}
             muted
             loop
             disableRemotePlayback
             className="intro__vid-6"
-          ></video>
+          ></LazyVideo>
+
           <div className="intro__vid-text">
             <p className="intro__vid-text-title">c2</p>
             <p className="intro__vid-text-subtitle">FREZZE</p>
           </div>
         </div>
         <div className="intro__vid-7-container">
-          <video
+          <LazyVideo
             src="/videos/tajin-vid.mp4"
-            onMouseOver={mouseOverHandler}
-            onMouseLeave={mouseLeaveHandler}
+            placeholder={"/placeholder-imgs/tajin.jpg"}
             muted
             loop
             disableRemotePlayback
             className="intro__vid-7"
-          ></video>
+          ></LazyVideo>
+
           <div className="intro__vid-text">
             <p className="intro__vid-text-title">tajin dulce</p>
             <p className="intro__vid-text-subtitle">DC</p>
@@ -131,15 +122,15 @@ function Intro() {
       <div className="intro__vid-8-line">
         <div className="intro__vid-line3"></div>
         <div className="intro__vid-8-container">
-          <video
+          <LazyVideo
             src="/videos/dulces-vid.mp4"
-            onMouseOver={mouseOverHandler}
-            onMouseLeave={mouseLeaveHandler}
+            placeholder={"/placeholder-imgs/dulces.jpg"}
             muted
             loop
             disableRemotePlayback
             className="intro__vid-8"
-          ></video>
+          ></LazyVideo>
+
           <div className="intro__vid-text">
             <p className="intro__vid-text-title">dulces vero</p>
             <p className="intro__vid-text-subtitle">ENCHILOVERS</p>

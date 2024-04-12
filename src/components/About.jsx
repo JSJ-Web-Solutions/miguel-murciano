@@ -1,7 +1,3 @@
-import Img1 from "../assets/about_1.png";
-import Img2 from "../assets/about_2.png";
-import Img3 from "../assets/about_3.png";
-
 function About() {
   return (
     <div className="about" id="about">
@@ -27,12 +23,12 @@ function About() {
             much appreciate it in the industry.
           </p>
           <div className="row-1-images">
-            <img src={Img1} />
-            <img src={Img2} />
+            <img src={"/about_1.png"} loading="lazy" />
+            <img src={"/about_2.png"} loading="lazy" />
           </div>
         </div>
         <div className="row row-2">
-          <img src={Img3} />
+          <img src={"/about_3.png"} loading="lazy" />
           <p>
             Currently Miguel is based in Mexico City where he has worked for
             brands such as Coca-Cola, Amazon, Fiat, Nestlè, UPS, Bimbo,

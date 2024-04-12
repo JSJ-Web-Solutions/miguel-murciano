@@ -154,12 +154,12 @@
   }
 }
 
-video:hover + .intro__vid-text {
+.video-el-container:hover + .intro__vid-text {
   transform: translate(-50%, 160%);
 }
 
-video:hover + .intro__vid-text .intro__vid-text-title,
-video:hover + .intro__vid-text .intro__vid-text-subtitle {
+.video-el-container:hover + .intro__vid-text .intro__vid-text-title,
+.video-el-container:hover + .intro__vid-text .intro__vid-text-subtitle {
   opacity: 0;
   transition: all 0.3s;
 }
