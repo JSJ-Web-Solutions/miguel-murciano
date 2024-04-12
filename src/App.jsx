@@ -10,7 +10,11 @@ function App() {
       <Intro />
       <About />
       <Contact />
-      <p className="copyright">©2024 JSJ Web Solutions. All rights reserved.</p>
+      <div className="copyright">
+        <a href="https://jsjsolutions.net/" target="_blank">
+          ©2024 JSJ Web Solutions. All rights reserved.
+        </a>
+      </div>
     </>
   );
 }
