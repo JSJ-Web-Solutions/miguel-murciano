@@ -15,7 +15,7 @@
       margin-bottom: 1.5rem;
     }
 
-    &-2-3 {
+    &-2-3-10-11 {
       display: flex;
       align-items: flex-start;
       justify-content: center;
@@ -23,7 +23,7 @@
       margin-bottom: 1.5rem;
     }
 
-    &-2 {
+    &-2-10 {
       &-container {
         position: relative;
         overflow: hidden;
@@ -31,7 +31,7 @@
       width: 41rem;
     }
 
-    &-3 {
+    &-3-11 {
       &-container {
         position: relative;
         overflow: hidden;
@@ -103,25 +103,47 @@
       width: 41rem;
     }
 
-    &-8-line {
-      display: flex;
-      justify-content: space-between;
-      height: 57rem;
+    &-8-9-lines {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      grid-template-rows: repeat(2, auto);
+      gap: 1.5rem;
+      padding-bottom: 1.5rem;
     }
 
     &-8 {
       &-container {
         position: relative;
         overflow: hidden;
+        grid-column: 2/4;
       }
-      align-self: flex-start;
       width: 84rem;
     }
 
+    &-9 {
+      &-container {
+        position: relative;
+        overflow: hidden;
+      }
+      width: 58rem;
+    }
+
     &-line3 {
-      align-self: flex-end;
+      height: 60rem;
+      align-self: center;
+      justify-self: center;
+      border-right: 1px solid $color_text;
+      grid-column: 1/2;
+      grid-row: 1/-1;
+    }
+
+    &-line4 {
+      justify-self: center;
+      align-self: center;
       height: 20rem;
       border-left: 1px solid $color_text;
+      grid-row: 2/3;
+      grid-column: 3/4;
     }
 
     ////////////////////
@@ -140,6 +162,8 @@
         color: white;
         opacity: 1;
         transition: all 0.5s;
+        line-height: 7.5rem;
+        margin-bottom: 1rem;
       }
 
       &-subtitle {
