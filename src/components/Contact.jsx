@@ -30,6 +30,14 @@ function Contact() {
             </a>
           </li>
           <li>
+            <p>US REPRESENTATION:</p>
+          </li>
+          <li>
+            <a href="https://www.letitrippictures.com" target="_blank">
+              WWW.LETITRIPPICTURES.COM
+            </a>
+          </li>
+          <li>
             <a href="mailto:info@miguelmurciano.com" target="_blank">
               INFO@MIGUELMURCIANO.COM
             </a>
