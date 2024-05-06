@@ -1,3 +1,9 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
+
 function About() {
   return (
     <div className="about" id="about">
@@ -23,12 +29,124 @@ function About() {
             much appreciate it in the industry.
           </p>
           <div className="row-1-images">
-            <img src={"/about_1.png"} loading="lazy" />
-            <img src={"/about_2.png"} loading="lazy" />
+            <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 3500,
+                disableOnInteraction: false,
+              }}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper-1"
+            >
+              <SwiperSlide className="swiper-slide-1">
+                <img
+                  src="/about_h1.JPG"
+                  alt=""
+                  loading="lazy"
+                  className="swiper-slide-1-img"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src="/about_h2.JPG"
+                  alt=""
+                  loading="lazy"
+                  className="swiper-slide-1-img"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src="/about_h3.png"
+                  alt=""
+                  loading="lazy"
+                  className="swiper-slide-1-img"
+                />
+              </SwiperSlide>
+            </Swiper>
+            <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 3500,
+                disableOnInteraction: false,
+              }}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper-2"
+            >
+              <SwiperSlide className="swiper-slide-2">
+                <img
+                  src="/about_h4.png"
+                  alt=""
+                  loading="lazy"
+                  className="swiper-slide-2-img"
+                />
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide-2">
+                <img
+                  src="/about_h5.png"
+                  alt=""
+                  loading="lazy"
+                  className="swiper-slide-2-img"
+                />
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide-2">
+                <img
+                  src="/about_v1.jpg"
+                  alt=""
+                  loading="lazy"
+                  className="swiper-slide-2-img"
+                />
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
         <div className="row row-2">
-          <img src={"/about_3.png"} loading="lazy" />
+          <div className="row-2-images">
+            <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 3500,
+                disableOnInteraction: false,
+              }}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper-3"
+            >
+              <SwiperSlide className="swiper-slide-3">
+                <img
+                  src="/about_v4.jpg"
+                  alt=""
+                  loading="lazy"
+                  className="swiper-slide-3-img"
+                />
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide-3">
+                <img
+                  src="/about_v5.jpg"
+                  alt=""
+                  loading="lazy"
+                  className="swiper-slide-3-img"
+                />
+              </SwiperSlide>
+              {/* <SwiperSlide className="swiper-slide-3">
+                <img
+                  src="/about_v2.jpg"
+                  alt=""
+                  loading="lazy"
+                  className="swiper-slide-3-img"
+                />
+              </SwiperSlide> */}
+              <SwiperSlide className="swiper-slide-3">
+                <img
+                  src="/about_v3.JPG"
+                  alt=""
+                  loading="lazy"
+                  className="swiper-slide-3-img"
+                />
+              </SwiperSlide>
+            </Swiper>
+          </div>
           <p>
             Currently Miguel is based in Mexico City where he has worked for
             brands such as Coca-Cola, Amazon, Fiat, Nestlè, UPS, Bimbo,
