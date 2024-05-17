@@ -16,6 +16,14 @@ function Contact() {
             </a>
           </li>
           <li>
+            <p>US REPRESENTATION:</p>
+          </li>
+          <li>
+            <a href="https://www.letitrippictures.com" target="_blank">
+              WWW.LETITRIPPICTURES.COM
+            </a>
+          </li>
+          <li>
             <p>
               REPRESENTED IN ASIA / EASTERN EUROPE / MIDDLE EAST / NORTH AFRICA
               BY GO EAST
@@ -27,14 +35,6 @@ function Contact() {
               target="_blank"
             >
               @MIGUEL_MURCIANO
-            </a>
-          </li>
-          <li>
-            <p>US REPRESENTATION:</p>
-          </li>
-          <li>
-            <a href="https://www.letitrippictures.com" target="_blank">
-              WWW.LETITRIPPICTURES.COM
             </a>
           </li>
           <li>

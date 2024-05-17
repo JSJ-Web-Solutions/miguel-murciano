@@ -60,3 +60,12 @@ h1 {
   font-size: 1.4rem;
   margin-bottom: $spacing-4;
 }
+
+@mixin hoverVideo {
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+  }
+}
