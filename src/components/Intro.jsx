@@ -110,7 +110,7 @@ function Intro() {
         <div className="intro__vid-7-container">
           <LazyVideo
             src="/videos/dulces-vid.mp4"
-            // placeholder={"/placeholder-imgs/tajin.jpg"}
+            placeholder={"/placeholder-imgs/dulces.jpg"}
             muted
             loop
             disableRemotePlayback
@@ -142,7 +142,7 @@ function Intro() {
         <div className="intro__vid-9-container">
           <LazyVideo
             src="/videos/barritas-vid.mp4"
-            // placeholder={"/placeholder-imgs/ups.jpg"}
+            placeholder={"/placeholder-imgs/barritas.jpg"}
             muted
             loop
             disableRemotePlayback
@@ -192,7 +192,7 @@ function Intro() {
       <div className="intro__vid-1-container">
         <LazyVideo
           src="/videos/adidas-vid.mp4"
-          // placeholder={"/placeholder-imgs/black.jpg"}
+          placeholder={"/placeholder-imgs/adidas.jpg"}
           muted
           loop
           disableRemotePlayback
@@ -273,7 +273,7 @@ function Intro() {
       <div className="intro__vid-1-container">
         <LazyVideo
           src="/videos/motorcycle-vid.mp4"
-          // placeholder={"/placeholder-imgs/black.jpg"}
+          placeholder={"/placeholder-imgs/motorcycle.jpg"}
           muted
           loop
           disableRemotePlayback

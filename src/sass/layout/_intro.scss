@@ -73,7 +73,7 @@
     &-line1 {
       height: 60rem;
       align-self: center;
-      border-right: 1px solid $color_text;
+      // border-right: 1px solid $color_text;
       grid-column: 3/4;
       grid-row: 1/-1;
     }
@@ -82,7 +82,7 @@
       justify-self: center;
       align-self: center;
       height: 20rem;
-      border-left: 1px solid $color_text;
+      // border-left: 1px solid $color_text;
       grid-row: 2/3;
     }
 
@@ -142,7 +142,7 @@
       height: 60rem;
       align-self: center;
       justify-self: center;
-      border-right: 1px solid $color_text;
+      // border-right: 1px solid $color_text;
       grid-column: 1/2;
       grid-row: 1/-1;
     }
@@ -151,7 +151,7 @@
       justify-self: center;
       align-self: center;
       height: 20rem;
-      border-left: 1px solid $color_text;
+      // border-left: 1px solid $color_text;
       grid-row: 2/3;
       grid-column: 3/4;
     }
