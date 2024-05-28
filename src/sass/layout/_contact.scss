@@ -47,3 +47,51 @@
     margin-top: calc($spacing-5 * 4);
   }
 }
+
+@media (max-width: 1280px) {
+  .contact {
+    padding: 2rem;
+    h1 {
+      font-size: 12rem;
+    }
+
+    hr {
+      margin-top: 1rem;
+    }
+  }
+
+  .copyright {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 2rem;
+
+    &_title_container {
+      margin-bottom: 5rem;
+    }
+
+    &_container {
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 10rem;
+      .contact_list {
+        margin-top: 10rem;
+        max-width: none;
+      }
+    }
+
+    h1 {
+      font-size: 7.2rem;
+    }
+
+    hr {
+      margin-top: 1rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+}

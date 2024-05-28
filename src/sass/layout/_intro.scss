@@ -239,3 +239,83 @@
   opacity: 1;
   transition: all 0.2s;
 }
+
+@media (max-width: 786px) {
+  .intro {
+    width: 100vw;
+    margin-bottom: 10rem;
+  }
+
+  .intro__vid-1-container,
+  .intro__vid-2-10-container,
+  .intro__vid-3-11-container,
+  .intro__vid-4-container,
+  .intro__vid-6-container,
+  .intro__vid-8-container,
+  .intro__vid-2-10-container {
+    width: 100%;
+    margin: 0;
+    display: flex;
+  }
+
+  .intro__vid-line1,
+  .intro__vid-line2,
+  .intro__vid-line3,
+  .intro__vid-line4,
+  .intro__vid-line1,
+  .intro__vid-line2 {
+    display: none;
+  }
+
+  .video-right {
+    justify-content: flex-end;
+    margin-left: auto;
+
+    .video-el-container {
+      justify-content: flex-end;
+      margin-left: auto;
+    }
+  }
+
+  .video-left,
+  .video-right {
+    width: 100vw;
+  }
+
+  .video-right {
+    video {
+      margin: 0;
+      margin-left: auto;
+    }
+  }
+
+  .video-el-container {
+    display: flex;
+  }
+
+  .intro__vid-2-3-10-11,
+  .intro__vid-4-5-lines,
+  .intro__vid-6-7,
+  .intro__vid-8-9-lines,
+  .intro__vid-2-3-10-11 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  video {
+    max-width: 75vw;
+  }
+
+  .m-top {
+    margin-top: 1.8rem;
+  }
+}
+
+// @media (max-width: 800px) {
+// }
+
+// @media (max-width: 768px) {
+// }
+
+// @media (max-width: 480px) {
+// }
