@@ -57,6 +57,7 @@ function LazyVideo({ src, placeholder, ...props }) {
           style={{
             visibility: isVideoLoaded ? "visible" : "hidden",
           }}
+          autoPlay
         ></video>
       )}
     </div>
