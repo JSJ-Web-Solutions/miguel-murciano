@@ -10,9 +10,12 @@
   }
 
   &__logo {
+    height: 90%;
     &-container {
+      height: 20rem;
       @media (max-width: 768px) {
         width: 120%;
+        height: 17rem;
         display: flex;
         justify-content: center;
       }

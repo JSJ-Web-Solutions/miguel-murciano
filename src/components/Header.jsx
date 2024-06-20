@@ -5,11 +5,7 @@ function Header(props) {
     <>
       <div className="header">
         <div className="header__logo-container">
-          <img
-            src="mm-logo-removebg-preview.png"
-            alt="logo"
-            className="header__logo"
-          />
+          <img src="mm-logo-mobile.png" alt="logo" className="header__logo" />
         </div>
         <a href="#intro" className="header__link">
           WORK
