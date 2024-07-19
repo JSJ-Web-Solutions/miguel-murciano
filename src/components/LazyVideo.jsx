@@ -58,6 +58,7 @@ function LazyVideo({ src, placeholder, ...props }) {
             visibility: isVideoLoaded ? "visible" : "hidden",
           }}
           autoPlay
+          playsInline
         ></video>
       )}
     </div>
