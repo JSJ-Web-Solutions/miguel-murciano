@@ -16,7 +16,7 @@ function Intro() {
             disableRemotePlayback
             className="video intro__vid-1"
           ></LazyVideo>
-  
+
           <div className="intro__vid-text">
             <p className="intro__vid-text-title">coca cola</p>
             <p className="intro__vid-text-subtitle">REAL MAGIC DC</p>
@@ -26,20 +26,20 @@ function Intro() {
       {/* 2 - 3 */}
       <div className="intro__vid-2-3-10-11">
         <div className="intro__vid-2-10-container video-right">
-         <div className="video-txt-container">
-           <LazyVideo
-             src="/videos/fiat-vid.mp4"
-             placeholder={"/placeholder-imgs/fiat.jpg"}
-             muted
-             loop
-             disableRemotePlayback
-             className="video intro__vid-2-10"
-           ></LazyVideo>
-           <div className="intro__vid-text-s">
-             <p className="intro__vid-text-s-title">fiat</p>
-             <p className="intro__vid-text-s-subtitle">SII UNICO</p>
-           </div>
-         </div>
+          <div className="video-txt-container">
+            <LazyVideo
+              src="/videos/fiat-vid.mp4"
+              placeholder={"/placeholder-imgs/fiat.jpg"}
+              muted
+              loop
+              disableRemotePlayback
+              className="video intro__vid-2-10"
+            ></LazyVideo>
+            <div className="intro__vid-text-s">
+              <p className="intro__vid-text-s-title">fiat</p>
+              <p className="intro__vid-text-s-subtitle">SII UNICO</p>
+            </div>
+          </div>
         </div>
         <div>
           <div className="intro__vid-3-11-container video-left">
@@ -63,20 +63,20 @@ function Intro() {
       {/* 4 - 5 */}
       <div className="intro__vid-4-5-lines">
         <div className="intro__vid-4-container video-right">
-         <div className="video-txt-container">
-           <LazyVideo
-             src="/videos/ups-vid.mp4"
-             placeholder={"/placeholder-imgs/ups.jpg"}
-             muted
-             loop
-             disableRemotePlayback
-             className="video intro__vid-4"
-           ></LazyVideo>
-           <div className="intro__vid-text">
-             <p className="intro__vid-text-title">ups</p>
-             <p className="intro__vid-text-subtitle">BE UNSTOPPABLE</p>
-           </div>
-         </div>
+          <div className="video-txt-container">
+            <LazyVideo
+              src="/videos/ups-vid.mp4"
+              placeholder={"/placeholder-imgs/ups.jpg"}
+              muted
+              loop
+              disableRemotePlayback
+              className="video intro__vid-4"
+            ></LazyVideo>
+            <div className="intro__vid-text">
+              <p className="intro__vid-text-title">ups</p>
+              <p className="intro__vid-text-subtitle">BE UNSTOPPABLE</p>
+            </div>
+          </div>
         </div>
         <div className="intro__vid-line1"></div>
         <div className="intro__vid-line2"></div>
@@ -90,7 +90,7 @@ function Intro() {
               disableRemotePlayback
               className="video intro__vid-5"
             ></LazyVideo>
-            
+
             <div className="intro__vid-text-s">
               <p className="intro__vid-text-s-title">barcel</p>
               <p className="intro__vid-text-s-subtitle">
@@ -112,7 +112,7 @@ function Intro() {
               disableRemotePlayback
               className="video intro__vid-6"
             ></LazyVideo>
-            
+
             <div className="intro__vid-text-s">
               <p className="intro__vid-text-s-title">c2</p>
               <p className="intro__vid-text-s-subtitle">FREEZE</p>
@@ -120,20 +120,20 @@ function Intro() {
           </div>
         </div>
         <div className="intro__vid-7-container video-left">
-         <div className="video-txt-container">
-           <LazyVideo
-             src="/videos/dulces-vid.mp4"
-             placeholder={"/placeholder-imgs/dulces.jpg"}
-             muted
-             loop
-             disableRemotePlayback
-             className="video intro__vid-7"
-           ></LazyVideo>
-           <div className="intro__vid-text-s">
-             <p className="intro__vid-text-s-title">dulces vero</p>
-             <p className="intro__vid-text-s-subtitle">ENCHILOVEROS</p>
-           </div>
-         </div>
+          <div className="video-txt-container">
+            <LazyVideo
+              src="/videos/dulces-vid.mp4"
+              placeholder={"/placeholder-imgs/dulces.jpg"}
+              muted
+              loop
+              disableRemotePlayback
+              className="video intro__vid-7"
+            ></LazyVideo>
+            <div className="intro__vid-text-s">
+              <p className="intro__vid-text-s-title">dulces vero</p>
+              <p className="intro__vid-text-s-subtitle">ENCHILOVEROS</p>
+            </div>
+          </div>
         </div>
       </div>
       {/* 8 - 9 */}
@@ -156,20 +156,20 @@ function Intro() {
           </div>
         </div>
         <div className="intro__vid-9-container video-left">
-         <div className="video-txt-container">
-           <LazyVideo
-             src="/videos/barritas-vid.mp4"
-             placeholder={"/placeholder-imgs/barritas.jpg"}
-             muted
-             loop
-             disableRemotePlayback
-             className="video intro__vid-5"
-           ></LazyVideo>
-           <div className="intro__vid-text-s">
-             <p className="intro__vid-text-s-title">barritas marinela</p>
-             <p className="intro__vid-text-s-subtitle">DC</p>
-           </div>
-         </div>
+          <div className="video-txt-container">
+            <LazyVideo
+              src="/videos/barritas-vid.mp4"
+              placeholder={"/placeholder-imgs/barritas.jpg"}
+              muted
+              loop
+              disableRemotePlayback
+              className="video intro__vid-5"
+            ></LazyVideo>
+            <div className="intro__vid-text-s">
+              <p className="intro__vid-text-s-title">barritas marinela</p>
+              <p className="intro__vid-text-s-subtitle">DC</p>
+            </div>
+          </div>
         </div>
         <div className="intro__vid-line4"></div>
       </div>
@@ -193,20 +193,20 @@ function Intro() {
         </div>
         <div>
           <div className="intro__vid-3-11-container video-left">
-           <div className="video-txt-container">
-             <LazyVideo
-               src="/videos/nito-vid.mp4"
-               placeholder={"/placeholder-imgs/nito.jpg"}
-               muted
-               loop
-               disableRemotePlayback
-               className="video intro__vid-3-11"
-             ></LazyVideo>
-             <div className="intro__vid-text-s">
-               <p className="intro__vid-text-s-title">bimbo</p>
-               <p className="intro__vid-text-s-subtitle">NITO BERRY</p>
-             </div>
-           </div>
+            <div className="video-txt-container">
+              <LazyVideo
+                src="/videos/nito-vid.mp4"
+                placeholder={"/placeholder-imgs/nito.jpg"}
+                muted
+                loop
+                disableRemotePlayback
+                className="video intro__vid-3-11"
+              ></LazyVideo>
+              <div className="intro__vid-text-s">
+                <p className="intro__vid-text-s-title">bimbo</p>
+                <p className="intro__vid-text-s-subtitle">NITO BERRY</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -221,7 +221,7 @@ function Intro() {
             disableRemotePlayback
             className="video intro__vid-1"
           ></LazyVideo>
-          
+
           <div className="intro__vid-text">
             <p className="intro__vid-text-title">adidas ocean store</p>
             <p className="intro__vid-text-subtitle">DC</p>
@@ -247,58 +247,58 @@ function Intro() {
           </div>
         </div>
         <div className="intro__vid-7-container video-right">
-         <div className="video-txt-container">
-           <LazyVideo
-             src="/videos/ippolita-vid.mp4"
-             placeholder={"/placeholder-imgs/ippolita.jpg"}
-             muted
-             loop
-             disableRemotePlayback
-             className="video intro__vid-7"
-           ></LazyVideo>
-           <div className="intro__vid-text-s">
-             <p className="intro__vid-text-s-title">cervezas fortuna</p>
-             <p className="intro__vid-text-s-subtitle">IPPOLITA</p>
-           </div>
-         </div>
+          <div className="video-txt-container">
+            <LazyVideo
+              src="/videos/ippolita-vid.mp4"
+              placeholder={"/placeholder-imgs/ippolita.jpg"}
+              muted
+              loop
+              disableRemotePlayback
+              className="video intro__vid-7"
+            ></LazyVideo>
+            <div className="intro__vid-text-s">
+              <p className="intro__vid-text-s-title">cervezas fortuna</p>
+              <p className="intro__vid-text-s-subtitle">IPPOLITA</p>
+            </div>
+          </div>
         </div>
       </div>
       {/* 15 - 16 */}
       <div className="intro__vid-4-5-lines">
-       <div className="video-txt-container">
-         <div className="intro__vid-4-container video-left">
-           <LazyVideo
-             src="/videos/santander-vid.mp4"
-             placeholder={"/placeholder-imgs/santander.jpg"}
-             muted
-             loop
-             disableRemotePlayback
-             className="video intro__vid-4"
-           ></LazyVideo>
-           <div className="intro__vid-text">
-             <p className="intro__vid-text-title">santander</p>
-             <p className="intro__vid-text-subtitle">UNIVERSIDAD</p>
-           </div>
-         </div>
-       </div>
+        <div className="video-txt-container">
+          <div className="intro__vid-4-container video-left">
+            <LazyVideo
+              src="/videos/santander-vid.mp4"
+              placeholder={"/placeholder-imgs/santander.jpg"}
+              muted
+              loop
+              disableRemotePlayback
+              className="video intro__vid-4"
+            ></LazyVideo>
+            <div className="intro__vid-text">
+              <p className="intro__vid-text-title">santander</p>
+              <p className="intro__vid-text-subtitle">UNIVERSIDAD</p>
+            </div>
+          </div>
+        </div>
         <div className="intro__vid-line1"></div>
         <div className="intro__vid-line2"></div>
         <div className="intro__vid-5-container video-right">
-         <div className="video-txt-container">
-           <LazyVideo
-             src="/videos/santander2-vid.mp4"
-             placeholder={"/placeholder-imgs/santander2.jpg"}
-             muted
-             loop
-             disableRemotePlayback
-             className="video intro__vid-5"
-           ></LazyVideo>
-          
-           <div className="intro__vid-text-s">
-             <p className="intro__vid-text-s-title">santander</p>
-             <p className="intro__vid-text-s-subtitle">VERANO</p>
-           </div>
-         </div>
+          <div className="video-txt-container">
+            <LazyVideo
+              src="/videos/santander2-vid.mp4"
+              placeholder={"/placeholder-imgs/santander2.jpg"}
+              muted
+              loop
+              disableRemotePlayback
+              className="video intro__vid-5"
+            ></LazyVideo>
+
+            <div className="intro__vid-text-s">
+              <p className="intro__vid-text-s-title">santander</p>
+              <p className="intro__vid-text-s-subtitle">VERANO</p>
+            </div>
+          </div>
         </div>
       </div>
       {/* 17 - 18 */}
@@ -315,6 +315,43 @@ function Intro() {
           <div className="intro__vid-text">
             <p className="intro__vid-text-title">motorcycle workshop</p>
             <p className="intro__vid-text-subtitle">DC</p>
+          </div>
+        </div>
+      </div>
+      {/* 19 - 20 */}
+      <div className="intro__vid-2-3-10-11">
+        <div className="intro__vid-2-10-container video-right">
+          <div className="video-txt-container">
+            <LazyVideo
+              src="/videos/superpowers_dc.mp4"
+              placeholder={"/placeholder-imgs/fiat.jpg"}
+              muted
+              loop
+              disableRemotePlayback
+              className="video intro__vid-2-10"
+            ></LazyVideo>
+            <div className="intro__vid-text-s">
+              <p className="intro__vid-text-s-title">SUPERPOWERS</p>
+              <p className="intro__vid-text-s-subtitle">DC</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="intro__vid-3-11-container video-left">
+            <div className="video-txt-container">
+              <LazyVideo
+                src="/videos/amazon___it_still_works.mp4"
+                placeholder={"/placeholder-imgs/c2-core.jpg"}
+                muted
+                loop
+                disableRemotePlayback
+                className="video intro__vid-3-11"
+              ></LazyVideo>
+              <div className="intro__vid-text-s">
+                <p className="intro__vid-text-s-title">IT STILL WORKS</p>
+                <p className="intro__vid-text-s-subtitle">amazon</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
