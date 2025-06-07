@@ -60,6 +60,23 @@ function Intro() {
           </div>
         </div>
       </div>
+      <div className="intro__vid-1-container video-left">
+        <div className="video-txt-container">
+          <LazyVideo
+            src="/videos/superpowers_dc.mp4"
+            placeholder={"/placeholder-imgs/fiat.jpg"}
+            muted
+            loop
+            disableRemotePlayback
+            className="video intro__vid-1"
+          ></LazyVideo>
+
+          <div className="intro__vid-text">
+            <p className="intro__vid-text-title">SUPERPOWERS</p>
+            <p className="intro__vid-text-subtitle">DC</p>
+          </div>
+        </div>
+      </div>
       {/* 4 - 5 */}
       <div className="intro__vid-4-5-lines">
         <div className="intro__vid-4-container video-right">
@@ -323,16 +340,16 @@ function Intro() {
         <div className="intro__vid-2-10-container video-right">
           <div className="video-txt-container">
             <LazyVideo
-              src="/videos/superpowers_dc.mp4"
-              placeholder={"/placeholder-imgs/fiat.jpg"}
+              src="/videos/pepsi-vid.mp4"
+              placeholder={"/placeholder-imgs/pepsi.jpg"}
               muted
               loop
               disableRemotePlayback
               className="video intro__vid-2-10"
             ></LazyVideo>
             <div className="intro__vid-text-s">
-              <p className="intro__vid-text-s-title">SUPERPOWERS</p>
-              <p className="intro__vid-text-s-subtitle">DC</p>
+              <p className="intro__vid-text-s-title">RÓMPELA DC</p>
+              <p className="intro__vid-text-s-subtitle">Pepsi</p>
             </div>
           </div>
         </div>
