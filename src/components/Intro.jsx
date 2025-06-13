@@ -45,16 +45,16 @@ function Intro() {
           <div className="intro__vid-3-11-container video-left">
             <div className="video-txt-container">
               <LazyVideo
-                src="/videos/c2-core-vid.mp4"
-                placeholder={"/placeholder-imgs/c2-core.jpg"}
+                src="/videos/pepsi-vid.mp4"
+                placeholder={"/placeholder-imgs/pepsi.jpg"}
                 muted
                 loop
                 disableRemotePlayback
                 className="video intro__vid-3-11"
               ></LazyVideo>
               <div className="intro__vid-text-s">
-                <p className="intro__vid-text-s-title">c2</p>
-                <p className="intro__vid-text-s-subtitle">CORE</p>
+                <p className="intro__vid-text-s-title">RÓMPELA DC</p>
+                <p className="intro__vid-text-s-subtitle">Pepsi</p>
               </div>
             </div>
           </div>
@@ -74,6 +74,26 @@ function Intro() {
           <div className="intro__vid-text">
             <p className="intro__vid-text-title">SUPERPOWERS</p>
             <p className="intro__vid-text-subtitle">DC</p>
+          </div>
+        </div>
+      </div>
+      <div className="intro__vid-2-3-10-11">
+        <div>
+          <div className="intro__vid-3-11-container video-left">
+            <div className="video-txt-container">
+              <LazyVideo
+                src="/videos/c2-core-vid.mp4"
+                placeholder={"/placeholder-imgs/c2-core.jpg"}
+                muted
+                loop
+                disableRemotePlayback
+                className="video intro__vid-3-11"
+              ></LazyVideo>
+              <div className="intro__vid-text-s">
+                <p className="intro__vid-text-s-title">c2</p>
+                <p className="intro__vid-text-s-subtitle">CORE</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -337,22 +357,6 @@ function Intro() {
       </div>
       {/* 19 - 20 */}
       <div className="intro__vid-2-3-10-11">
-        <div className="intro__vid-2-10-container video-right">
-          <div className="video-txt-container">
-            <LazyVideo
-              src="/videos/pepsi-vid.mp4"
-              placeholder={"/placeholder-imgs/pepsi.jpg"}
-              muted
-              loop
-              disableRemotePlayback
-              className="video intro__vid-2-10"
-            ></LazyVideo>
-            <div className="intro__vid-text-s">
-              <p className="intro__vid-text-s-title">RÓMPELA DC</p>
-              <p className="intro__vid-text-s-subtitle">Pepsi</p>
-            </div>
-          </div>
-        </div>
         <div>
           <div className="intro__vid-3-11-container video-left">
             <div className="video-txt-container">
