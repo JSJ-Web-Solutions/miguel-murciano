@@ -7,7 +7,7 @@ function Contact() {
           <li>
             <p>WORLDWIDE DIRECTOR</p>
           </li>
-          <li>
+          {/* <li>
             <p>MEXICO, COLOMBIA AND CHILE THE MAESTROS</p>
           </li>
           <li>
@@ -22,7 +22,7 @@ function Contact() {
             <a href="https://www.letitrippictures.com" target="_blank">
               WWW.LETITRIPPICTURES.COM
             </a>
-          </li>
+          </li> */}
           <li>
             <p>
               REPRESENTED IN ASIA / EASTERN EUROPE / MIDDLE EAST / NORTH AFRICA
